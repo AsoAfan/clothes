@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="img/fashion_icon_vector_green_background_281347-removebg-preview.png"
+          alt="org-logo"
+          width="35"
+          height="auto"
+          class="logo-img"
+        />
+        <h1 class="main-title">جلوبەرگ</h1>
+      </div>
+
+      <nav>
+        <a href="#" class="nav-link">فرۆشتگا</a>
+        <a href="#" class="nav-link">داواکردن</a>
+        <a href="#" class="nav-link">شوێن</a>
+        <a href="#" class="nav-link">بلۆگ</a>
+        <a href="#" class="nav-link">یارمەتی</a>
+      </nav>
+
+      <div class="profile-stuff">
+        <span class="material-symbols-outlined header-icon shopping-cart">
+          shopping_bag
+        </span>
+
+        <span class="material-symbols-outlined header-icon"> favorite </span>
+
+        <img
+          src="img/CampCounselor-01-1.png"
+          alt="profile-img"
+          width="30"
+          height="auto"
+        />
+      </div>
+    </header>
+
+    <div class="container">
+      <aside class="filter-side">
+        <div class="filter-side-title-container">
+          <h1 class="main-title">فلتەر</h1>
+        </div>
+        <h2 class="main-title">پۆلەکان</h2>
+        <div class="option-container">
+          <label for="filter-option-1-" class="option-label">
+            <input
+              type="checkbox"
+              name="filter-option-1-"
+              id="filter-option-1-"
+            />
+            پیاوان
+          </label>
+
+          <label for="filter-option-2-" class="option-label">
+            <input
+              type="checkbox"
+              name="filter-option-2-"
+              id="filter-option-2-"
+            />
+            ئافرەتان
+          </label>
+
+          <label for="filter-option-3-" class="option-label">
+            <input
+              type="checkbox"
+              name="filter-option-3-"
+              id="filter-option-3-"
+            />
+            منداڵان
+          </label>
+
+          <label for="filter-option-4-" class="option-label">
+            <input
+              type="checkbox"
+              name="filter-option-1-"
+              id="filter-option-4-"
+            />
+            هاوینە
+          </label>
+
+          <label for="filter-option-5-" class="option-label">
+            <input
+              type="checkbox"
+              name="filter-option-5-"
+              id="filter-option-5-"
+            />
+            زستانە
+          </label>
+          <!-- lsaquo; -->
+
+          <p class="more-option">ئەوانی تر v</p>
+        </div>
+
+        <div class="price-limit">
+          <h2 class="main-title">مەودای نرخەکان</h2>
+
+          <div class="price-chose">
+            <p class="min-price-label">کەمترین</p>
+            <label for="min-price" class="price-input">
+              <input
+                type="text"
+                name="min-price"
+                id="min-price"
+                value="10,000"
+              />د.ع
+            </label>
+          </div>
+          <div class="btn-container">
+            <button class="price-btn">نرخ دیاری بکە</button>
+          </div>
+        </div>
+
+        <div class="rating">
+          <h2 class="main-title">ڕیزبەندی</h2>
+
+          <div class="rate">
+            <input type="checkbox" name="" id="" checked />
+            <div class="stars">
+              <span class="material-symbols-rounded stared"> star </span>
+              <span class="material-symbols-rounded stared"> star </span>
+              <span class="material-symbols-rounded stared"> star </span>
+              <span class="material-symbols-rounded"> star </span>
+              <span class="material-symbols-rounded"> star </span>
+            </div>
+            <p>لە سەرەوە</p>
+          </div>
+
+          <div class="dis">
+            <div class="overley">
+              <h2>داشکاندنی ٪30</h2>
+              <p>
+                هاوڕێکانت بێبەش مەکە لەم ئۆفەرە هەر ئێستا هاوبەشی بکە لە کڕینی
+                جلوبەرگ
+              </p>
+
+              <button class="share-btn">هاوبەشیکردن</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-container">
+        <header class="search-bar">
+          <div class="searching">
+            <div class="search-item-container">
+              <div class="search-item">
+                <span class="material-symbols-rounded search">search</span>
+                <input
+                  type="search"
+                  name="search-box"
+                  id="search-box"
+                  placeholder="گەڕان بکە"
+                />
+                <span class="material-symbols-rounded" style="cursor: default">
+                  close
+                </span>
+              </div>
+
+              <p>ئەنجامی گەڕان بۆ <span>قاتی پیاوان</span></p>
+            </div>
+
+            <div class="search-filter">
+              <p class="filter-type">جۆر</p>
+
+              <div class="filter-item-container">
+                <button class="filter-item">پەیوەندیدارێتی</button>
+                <button class="filter-item">بەناوبانگ</button>
+                <button class="filter-item">باوترین</button>
+                <button class="filter-item dm">نرخ v</button>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="product-container">
+          <div class="row1">
+            <div class="img">
+              <img src="img/well dressed-2.jpg" alt="" class="product-img" />
+              <div class="over">
+                <span class="material-symbols-outlined fav-icon">
+                  favorite
+                </span>
+
+                <div class="product-info">
+                  <h2 class="main-title product-title">قاتی پیاوان</h2>
+                  <div class="stars" id="img1">
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded"> star </span>
+                  </div>
+
+                  <button class="price-btn">115,000 د.ع</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="img">
+              <img src="img/well dressed.jpg" alt="" class="product-img" />
+              <div class="over">
+                <span class="material-symbols-outlined fav-icon liked">
+                  favorite
+                </span>
+                <div class="product-info">
+                  <h2 class="main-title product-title">قاتی پیاوان</h2>
+                  <div class="stars" id="img2">
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded"> star </span>
+                    <span class="material-symbols-rounded"> star </span>
+                    <span class="material-symbols-rounded"> star </span>
+                  </div>
+
+                  <button class="price-btn">85,000 د.ع</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="img">
+              <img src="img/well dressed-3.jpg" alt="" class="product-img" />
+              <div class="over">
+                <span class="material-symbols-outlined fav-icon">
+                  favorite
+                </span>
+
+                <div class="product-info">
+                  <h2 class="main-title product-title">قاتی پیاوان</h2>
+                  <div class="stars" id="img3">
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded"> star </span>
+                    <span class="material-symbols-rounded"> star </span>
+                  </div>
+
+                  <button class="price-btn">100,000 د.ع</button>
+                </div>
+              </div>
+            </div>
+            <div class="img">
+              <img src="img/well dressed-4.png" alt="" class="product-img" />
+              <div class="over">
+                <span class="material-symbols-outlined fav-icon">
+                  favorite
+                </span>
+
+                <div class="product-info">
+                  <h2 class="main-title product-title">قاتی پیاوان</h2>
+                  <div class="stars" id="img4">
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                    <span class="material-symbols-rounded stared"> star </span>
+                  </div>
+
+                  <button class="price-btn">250,000 د.ع</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="additional">
+        <img
+          src="img/Haircut_for_a_Gentleman.original.jpg"
+          alt=""
+          width="100%"
+          height="35%"
+          style="object-fit: cover"
+        />
+        <div class="body">
+          <h2 class="main-title section-title">قاتی پیاوان</h2>
+          <p class="info">
+            جوانترین قاتی پیاوان هەموو ڕەنگەکانی بەردەستن هەموو سایزێکی هەیە
+            لەکاتی شۆرین ڕەنگی ناڕوا هەروەکو خۆی دەمێنێتەوە
+          </p>
+          <div class="link-container">
+            <a class="info-link" href="#">وردەکاریەکان</a>
+            <a class="info-link" href="#">پێداچوونەوەکان</a>
+          </div>
+
+          <div class="link-container">
+            <button class="info-btn">
+              شین <img src="img/circles.png" alt="" width="20" height="auto" />
+            </button>
+
+            <button class="info-btn">
+              گەورە
+              <img
+                src="img/icons8-sewing-64.png"
+                alt=""
+                width="20"
+                height="auto"
+              />
+            </button>
+          </div>
+
+          <div class="last-btn">
+            <button class="price-btn l">25,000 د.ع - کڕین</button>
+            <span class="material-symbols-outlined fav-icon1"> favorite </span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
